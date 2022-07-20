@@ -24,8 +24,7 @@ $config['root_admin'] = 1;
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/thicuoiki_webcodeigniter';
-
+$config['base_url'] = 'http://' . $_SERVER['SERVER_NAME'] . "/cici/"; // cici la ten thu muc chua code o trong htdocs
 /*
 |--------------------------------------------------------------------------
 | Index File
